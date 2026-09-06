@@ -26,7 +26,7 @@ jobs:
       - name: Descomprimir proyecto
         run: |
           mkdir -p proyecto
-          unzip -o RentableZone_A11_v0.7_source.zip -d proyecto
+          unzip -o RentableZone_A11_v0.7.1_source.zip -d proyecto
 
       - name: Compilar APK
         working-directory: proyecto/RentableZone
